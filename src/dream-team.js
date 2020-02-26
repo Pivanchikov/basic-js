@@ -1,5 +1,6 @@
 module.exports = function createDreamTeam(array) {
-      if (typeof(array) != typeof([])) {return false}
+      if (typeof(array) != typeof([])) {return false} 
+      if (array === null) {return false }
       if (array.length == undefined) {return false}
       let members = [];
       for (let i = 0; i < array.length; i++){
