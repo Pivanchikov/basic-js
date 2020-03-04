@@ -5,6 +5,6 @@ let Hanoi = {
 }
       turns = Math.pow(2, disksNumber) - 1;
       Hanoi.turns = turns;
-      Hanoi.seconds = (turns/turnsSpeed) *3600;
+      Hanoi.seconds = turns / (turnsSpeed / 3600);
 return Hanoi
 }
